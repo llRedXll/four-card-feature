@@ -93,7 +93,7 @@ body {
 }
 
 .card img {
-    align-self: end;
+    margin-left:auto;
     padding-top: 4rem;
 }
 
