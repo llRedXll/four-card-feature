@@ -92,9 +92,10 @@ body {
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.card img {
+.card--icon {
     margin-left:auto;
     padding-top: 4rem;
+    display: flex;
 }
 
 .card--title {
