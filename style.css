@@ -72,9 +72,10 @@ body {
     font-size: 3.6rem;
 }
 
-.intro-copy h1:last-of-type {
+.intro-copy h1 span {
     font-weight: 600;
     padding-bottom: 2rem;
+    display: block;
 }
 
 .cards {
@@ -93,7 +94,7 @@ body {
 }
 
 .card--icon {
-    margin-left:auto;
+    margin-left: auto;
     padding-top: 4rem;
     display: flex;
 }
@@ -175,15 +176,15 @@ body {
         font-size: 50%;
     }
 
-   .cards {
-       grid-template-columns: minmax(min-content, 350px);
-   }
+    .cards {
+        grid-template-columns: minmax(min-content, 350px);
+    }
 }
 
 @media only screen and (max-width: 620px) {
 
-.intro-copy h1 {
-    font-size: 2.6rem;
-}
+    .intro-copy h1 {
+        font-size: 2.6rem;
+    }
 
 }
